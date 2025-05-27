@@ -82,15 +82,3 @@ main {
     transform: scale(1.05);
     box-shadow: 0 0 10px #fff;
 }
-
-/* Immagini responsive */
-@media (max-width: 600px) {
-    nav {
-        flex-direction: column;
-        gap: 1em;
-    }
-
-    main {
-        padding: 4em 1em;
-    }
-}
